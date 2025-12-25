@@ -106,7 +106,7 @@ npm install
 **Backend (.env):**
 ```env
 # MongoDB Atlas
-MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/?appName=Email
+MONGODB_URI=mongodb+srv://<username>:<password>@<cluster>.mongodb.net/?appName=Email
 MONGODB_DB_NAME=bulk_email_sender
 
 # Server
@@ -116,8 +116,8 @@ SESSION_SECRET=your-secure-random-string
 # SMTP (Optional - users can configure their own)
 SMTP_HOST=smtp.gmail.com
 SMTP_PORT=587
-SMTP_USER=your@email.com
-SMTP_PASS=your_app_password
+SMTP_USER=your-email@gmail.com
+SMTP_PASS=your-app-password
 ```
 
 **Frontend (frontend/.env):**
